@@ -1,0 +1,19 @@
+{
+  "name": "koa-cors-error",
+  "version": "0.0.2",
+  "description": "Allow 4xx or 5xx statuses for cross-domain requests.",
+  "main": "index.js",
+  "author": {
+    "name": "Pavel Kornilov",
+    "email": "lusever@lusever.com",
+    "url": "http://lusever.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lusever/koa-cors-error.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "statuses": "^1.2.1"
+  }
+}
