@@ -1,13 +1,13 @@
 # koa-cors-error
 
-Bug fixed [bug](https://github.com/evert0n/koa-cors/issues/17) whith 4xx or 5xx not sent while cross-domain requests.
+Module has fixed the [bug](https://github.com/evert0n/koa-cors/issues/17) when the system didn't send the 4xx or 5xx statuses through cross-domain requests.
 koa `onerror` method have been completely replaced.
 
 
 ## Installation
 
 ```sh
-$ npm install koa-stylish
+$ npm install koa-cors-error
 ```
 
 
