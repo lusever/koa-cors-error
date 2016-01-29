@@ -24,7 +24,7 @@ module.exports = function() {
       // than delegate to the app-level
       // handler and log.
       if (ctx.headerSent || !ctx.writable) {
-      err.headerSent = true;
+        err.headerSent = true;
         return;
       }
       
