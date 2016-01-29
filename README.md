@@ -15,7 +15,10 @@ $ npm install koa-cors-error
 ```javascript
 var corsError = require('koa-cors-error');
 
-app.post('/api/cors', cors, corsError, function *() {
-  this.throw(401);
+app.use(cors());
+app.use(corsError());
+
+app.use(function(ctx, next) {
+    ctx.throw(400);
 });
 ```
